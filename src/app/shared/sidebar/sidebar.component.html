@@ -1,0 +1,12 @@
+<h2>Busquedas</h2>
+<hr>
+<ul class="list-group">
+  <li routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="list-group-item">
+    Buscar Pais</li>
+    <!-- routerLinkActive, agrega una clase cuando se presiona, en este caso se agrega active-->
+    <!-- [routerLinkActiveOptions] es para que se active si y solo si el patch es estrictamente igual a como lo pusimos en el routing  -->
+  <li routerLink="region" routerLinkActive="active" class="list-group-item">Por Region</li>
+  <li routerLink="capital" routerLinkActive="active" class="list-group-item">
+    Por Capital
+  </li>
+</ul>
